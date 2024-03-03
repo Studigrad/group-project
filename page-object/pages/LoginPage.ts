@@ -21,13 +21,13 @@ export class LoginPage extends BasePage {
     this.kaggleTitle = page.locator("//h1")/*[@class='sc-kFCroH sc-idnTxV ctlLBx SklmE']")*/
   }
   async login() {
-    await this.page.goto(process.env.STAGE_URL as string);
+    await this.page.goto(process.env.STAGE_URL as any);
     await this.signInBtn.click();
     await this.signInByEmailBtn.click();
-    await this.emailField.fill(process.env.EMAIL as string);
-    await this.passField.fill(process.env.PASSWORD as string);
+    await this.emailField.fill(process.env.EMAIL as any);
+    await this.passField.fill(process.env.PASSWORD as any);
     await this.submitBtn.click(); 
     await expect(this.kaggleTitle).toHaveText(`Welcome, Test Hillel!`)
-    await expect(this.page).toHaveURL(process.env.STAGE_URL as string);
+    await expect(this.page).toHaveURL(process.env.STAGE_URL as any);
   }
 }

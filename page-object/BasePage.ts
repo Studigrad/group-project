@@ -5,11 +5,11 @@ dotenv.config();
 
 export class BasePage {
   readonly page: Page;
-  expectedUrlMainPage: string;
+  expectedUrlMainPage: any;
   readonly Navigation: any;
 
   constructor(page: Page) {
-    this.page = page
+    this.page = page;
     this.expectedUrlMainPage = process.env.STAGE_URL as string;
     this.Navigation = new Navigation(page)
   }

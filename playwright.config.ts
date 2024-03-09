@@ -12,6 +12,7 @@ import { defineConfig, devices } from '@playwright/test';
  */
 
 export default defineConfig({
+  globalSetup: './global-setup',
   testDir: './tests',
   timeout: 5 * 6 * 1000,
   fullyParallel: false,
@@ -22,7 +23,8 @@ export default defineConfig({
   use: {
     // baseURL: 'https://staging.timelycare.com/',
     trace: 'on-first-retry',
-    screenshot:"only-on-failure"
+    screenshot:"only-on-failure",
+    storageState:'./LoginAuth.json'
   },
   projects: [
     {

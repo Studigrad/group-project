@@ -1,0 +1,166 @@
+{
+  "cookies": [
+    {
+      "name": "_GRECAPTCHA",
+      "value": "09ACzWgXqgVch-l7za2OKo4ZzyzfdiJbEIsA2qeDsReVMQOrSFj0ipG3ozaZu4A86B1wq22n7ZOEMQTTz75GpETgU",
+      "domain": "www.google.com",
+      "path": "/recaptcha",
+      "expires": 1725436290.190282,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ka_sessionid",
+      "value": "d462232c1350a7171328ef2a6acbb81a",
+      "domain": "www.kaggle.com",
+      "path": "/",
+      "expires": 1712510845.620717,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "CSRF-TOKEN",
+      "value": "CfDJ8NaX4LWNDABNvJ0hP3zKe6iy4k0MR3uZuxC-VZYBp3fZNpgNcDQFn6qIyNoviRMEoQsfm9tu-fXTRyeW3LwUiV2hdPQhO1riyI4Vg9wwRg",
+      "domain": "www.kaggle.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "GCLB",
+      "value": "COyfn-Tvi_-qwwE",
+      "domain": "www.kaggle.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "build-hash",
+      "value": "1e19d193003138f41b90666ffc1caf4522f1a9c3",
+      "domain": "www.kaggle.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.184849174.1709884286",
+      "domain": ".kaggle.com",
+      "path": "/",
+      "expires": 1744444289.625967,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Host-KAGGLEID",
+      "value": "CfDJ8NaX4LWNDABNvJ0hP3zKe6jsdHMXxj5byKZpTVtP8tcGT3bjct1uD_qIPc35eclOdIxAoQSbVxtrVFPgMFsWYIjqtZmWys69XCidLxxcb6kisGLX6B7JbCsg",
+      "domain": "www.kaggle.com",
+      "path": "/",
+      "expires": 1711093889.191952,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "XSRF-TOKEN",
+      "value": "CfDJ8NaX4LWNDABNvJ0hP3zKe6im3fpRfx6J9XpP6cmkc1EpgsKwJr5ZIJI2L-pR7ucDN_-J72U5yVBr79_Fqn7kFlMDZPAsmpQE0gm4VPQYhBouIJXDDMS0YaeKYkpI3x2zvqWXzpwsPDEPmNo-CMlls8o",
+      "domain": "www.kaggle.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "CLIENT-TOKEN",
+      "value": "eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJpc3MiOiJrYWdnbGUiLCJhdWQiOiJjbGllbnQiLCJzdWIiOiJ0ZXN0aGlsbGVsIiwibmJ0IjoiMjAyNC0wMy0wOFQwNzo1MToyOC45Mjg2NDEwWiIsImlhdCI6IjIwMjQtMDMtMDhUMDc6NTE6MjguOTI4NjQxMFoiLCJqdGkiOiI5ZGEwZTk5Yi0zNjA0LTQ5ZTktYjRhMy03Y2MyZjBjNmE2NDgiLCJleHAiOiIyMDI0LTA0LTA4VDA3OjUxOjI4LjkyODY0MTBaIiwidWlkIjoxOTA5NTU0NywiZGlzcGxheU5hbWUiOiJUZXN0IEhpbGxlbCIsImVtYWlsIjoiaWxseWFzdHVkMjAwMkBnbWFpbC5jb20iLCJ0aWVyIjoiTm92aWNlIiwidmVyaWZpZWQiOmZhbHNlLCJwcm9maWxlVXJsIjoiL3Rlc3RoaWxsZWwiLCJ0aHVtYm5haWxVcmwiOiJodHRwczovL3N0b3JhZ2UuZ29vZ2xlYXBpcy5jb20va2FnZ2xlLWF2YXRhcnMvdGh1bWJuYWlscy9kZWZhdWx0LXRodW1iLnBuZyIsImZmIjpbIkltcG9ydEtlcm5lbHNGcm9tQ29sYWIiLCJLZXJuZWxzRHJhZnRVcGxvYWRCbG9iIiwiS2VybmVsc0V4cG9ydE1ldGFkYXRhIiwiS2VybmVsc0ZpcmViYXNlTG9uZ1BvbGxpbmciLCJDb21tdW5pdHlMb3dlckhlYWRlclNpemVzIiwiQWxsb3dGb3J1bUF0dGFjaG1lbnRzIiwiS2VybmVsc1NhdmVDZWxsT3V0cHV0IiwiRnJvbnRlbmRFcnJvclJlcG9ydGluZyIsIkRhdGFzZXRzTWFuYWdlZEZvY3VzT25PcGVuIiwiQ2hhbmdlRGF0YXNldE93bmVyc2hpcFRvT3JnIiwiRXhwb3J0RGF0YXNldEFzQ3JvaXNzYW50IiwiS01Vc2VyUHJvZmlsZSIsIk1hdVJlcG9ydCIsIk1vZGVsc0NhY2hlZFRhZ1NlcnZpY2VFbmFibGVkIiwiTW9kZWxzUHVibGlzaGluZyIsIk9yZ2FuaXphdGlvbnNWMiIsIkRhdGFzZXRVcGxvYWRlckR1cGxpY2F0ZURldGVjdGlvbiIsIkRhdGFzZXRzTWV0YWRhdGFTdWdnZXN0aW9ucyIsIktlcm5lbHNFZGl0b3JJbnB1dFBhbmVsIiwiS2VybmVsc09wZW5Ob3RlYm9va0luQ29sYWIiLCJEYXJrTW9kZSIsIktlcm5lbHNEZWxldGVLZXJuZWxGcm9tRWRpdG9yIiwiR2VuQWlFbmFibGVHcnBjU3RyZWFtaW5nIl0sImZmZCI6eyJLZXJuZWxFZGl0b3JBdXRvc2F2ZVRocm90dGxlTXMiOiIzMDAwMCIsIkVtZXJnZW5jeUFsZXJ0QmFubmVyIjoie30iLCJDbGllbnRScGNSYXRlTGltaXRRcHMiOiI0MCIsIkNsaWVudFJwY1JhdGVMaW1pdFFwbSI6IjUwMCIsIkZlYXR1cmVkQ29tbXVuaXR5Q29tcGV0aXRpb25zIjoiNjAwOTUsNTQwMDAsNTcxNjMiLCJBZGRGZWF0dXJlRmxhZ3NUb1BhZ2VMb2FkVGFnIjoiZGlzYWJsZWQiLCJNb2RlbElkc0FsbG93SW5mZXJlbmNlIjoiMzMwMSwzNTMzIiwiTW9kZWxJbmZlcmVuY2VQYXJhbWV0ZXJzIjoieyBcIm1heF90b2tlbnNcIjogMTI4LCBcInRlbXBlcmF0dXJlXCI6IDAuNCwgXCJ0b3Bfa1wiOiA1IH0iLCJTaW1Db21wZXRpdGlvbklkc1RvSWdub3JlVXBsb2FkTGltaXQiOiI2MDI0Myw2MTI1MCIsIkNvbXBldGl0aW9uTWV0cmljVGltZW91dE1pbnV0ZXMiOiIzMCIsIkNvbXBldGl0aW9uSWRzUmVxdWlyaW5nVXNlclZlcmlmaWNhdGlvbiI6IjYyNzMzLDYyMzkwIiwiVGZIdWJLYWdnbGVBbm5vdW5jZW1lbnRVcmwiOiIvZGlzY3Vzc2lvbnMvcHJvZHVjdC1mZWVkYmFjay80NDg0MjUifSwicGlkIjoia2FnZ2xlLTE2MTYwNyIsInN2YyI6IndlYi1mZSIsInNkYWsiOiJBSXphU3lBNGVOcVVkUlJza0pzQ1pXVnotcUw2NTVYYTVKRU1yZUUiLCJibGQiOiIxZTE5ZDE5MzAwMzEzOGY0MWI5MDY2NmZmYzFjYWY0NTIyZjFhOWMzIn0.",
+      "domain": "www.kaggle.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_T7QHS60L4Q",
+      "value": "GS1.1.1709884286.1.1.1709884289.0.0.0",
+      "domain": ".kaggle.com",
+      "path": "/",
+      "expires": 1744444289.671012,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "recaptcha-ca-t",
+      "value": "AVGAUYyZyOvXyLJ9cxr0XowOuLua5tOA8j-THQcd7G93yCQCAYN_vqefWNWWtls1JwIeF6eIZyWtx4faQ9NwbtmwDWC1HDjiv32e23O8xETM-rtRavC8T-S8AxJ3THOeEPAAG32KkYYUhmo:U=f24e48b2c0000000",
+      "domain": "www.kaggle.com",
+      "path": "/",
+      "expires": 1709886090,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.kaggle.com",
+      "localStorage": [
+        {
+          "name": "KAGGLE_RECENTLY_EDITED_ITEMS",
+          "value": "[{\"title\":\"notebooked82806ad6\",\"url\":\"https://www.kaggle.com/code/testhillel/notebooked82806ad6?rvi=1\",\"authorSlug\":\"/testhillel\",\"thumbnailUrl\":\"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png\",\"id\":52189832,\"itemType\":\"kernel\",\"mostRecentView\":\"2024-03-07T21:10:10.000Z\"},{\"title\":\"notebook0ceeeb81b5\",\"url\":\"https://www.kaggle.com/code/testhillel/notebook0ceeeb81b5?rvi=1\",\"authorSlug\":\"/testhillel\",\"thumbnailUrl\":\"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png\",\"id\":52189759,\"itemType\":\"kernel\",\"mostRecentView\":\"2024-03-07T21:08:12.000Z\"},{\"title\":\"notebook453cfab446\",\"url\":\"https://www.kaggle.com/code/testhillel/notebook453cfab446?rvi=1\",\"authorSlug\":\"/testhillel\",\"thumbnailUrl\":\"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png\",\"id\":52186916,\"itemType\":\"kernel\",\"mostRecentView\":\"2024-03-07T19:46:14.000Z\"},{\"title\":\"notebook06d8afbd42\",\"url\":\"https://www.kaggle.com/code/testhillel/notebook06d8afbd42?rvi=1\",\"authorSlug\":\"/testhillel\",\"thumbnailUrl\":\"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png\",\"id\":52056742,\"itemType\":\"kernel\",\"mostRecentView\":\"2024-03-05T20:13:05.000Z\"},{\"title\":\"notebook4c0b83e6d7\",\"url\":\"https://www.kaggle.com/code/testhillel/notebook4c0b83e6d7?rvi=1\",\"authorSlug\":\"/testhillel\",\"thumbnailUrl\":\"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png\",\"id\":52056671,\"itemType\":\"kernel\",\"mostRecentView\":\"2024-03-05T20:11:08.000Z\"}]"
+        },
+        {
+          "name": "KG-THEME",
+          "value": "unspecified"
+        },
+        {
+          "name": "analyticsToken",
+          "value": "{\"value\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDk4ODUxODksIlVzZXJJZCI6MTkwOTU1NDd9.NIpbrgErZZnWYrMmWzEfgDFKdOGkKWA3jZPIQH1FfB8\",\"refreshTime\":1709884289726}"
+        },
+        {
+          "name": "KAGGLE_RECENTLY_VIEWED_ITEMS",
+          "value": "[{\"title\":\"Suicides risk factors\",\"url\":\"https://www.kaggle.com/datasets/willianoliveiragibin/suicides-risk-factors?rvi=1\",\"authorSlug\":\"/willianoliveiragibin\",\"thumbnailUrl\":\"https://storage.googleapis.com/kaggle-datasets-images/4539167/7761305/ac5bd05e4a77d1d096b961502a8637b7/dataset-thumbnail.jpg?t=2024-03-04-19-23-31\",\"id\":4539167,\"itemType\":\"dataset\",\"mostRecentView\":\"2024-03-05T19:51:57.000Z\"},{\"title\":\"Amazon_Sales_Dataset\",\"url\":\"https://www.kaggle.com/datasets/anandshaw2001/amazon-sales-dataset?rvi=1\",\"authorSlug\":\"/anandshaw2001\",\"thumbnailUrl\":\"https://storage.googleapis.com/kaggle-datasets-images/4538961/7761022/02a52962f35d6616e6cebbc9bb6dd23f/dataset-thumbnail.jpg?t=2024-03-04-18-45-12\",\"id\":4538961,\"itemType\":\"dataset\",\"mostRecentView\":\"2024-03-05T19:38:09.000Z\"},{\"title\":\"Grand Theft Auto V\",\"url\":\"https://www.kaggle.com/datasets/noahx1/grand-theft-auto-v?rvi=1\",\"authorSlug\":\"/noahx1\",\"thumbnailUrl\":\"https://storage.googleapis.com/kaggle-datasets-images/4387661/7533339/6e5fc9c16320e83821cc2494a380cee5/dataset-thumbnail.jpg?t=2024-02-01-19-54-36\",\"id\":4387661,\"itemType\":\"dataset\",\"mostRecentView\":\"2024-03-04T05:58:43.000Z\"},{\"title\":\"US Stock Market 2020 to 2024\",\"url\":\"https://www.kaggle.com/datasets/dhavalpatel555/us-stock-market-2020-to-2024?rvi=1\",\"authorSlug\":\"/dhavalpatel555\",\"thumbnailUrl\":\"https://storage.googleapis.com/kaggle-datasets-images/4462395/7654206/d4012739678235b6bccd8a974bcfbb4c/dataset-thumbnail.jpg?t=2024-02-19-08-47-36\",\"id\":4462395,\"itemType\":\"dataset\",\"mostRecentView\":\"2024-02-27T05:58:29.000Z\"},{\"title\":\"KaggleX BIPOC Mentorship Program\",\"url\":\"https://www.kaggle.com/kagglex?rvi=1\",\"authorSlug\":\"\",\"thumbnailUrl\":\"https://storage.googleapis.com/kaggle-organizations/4/thumbnail.png\",\"id\":169428,\"itemType\":\"cmsPage\",\"mostRecentView\":\"2024-02-26T15:32:53.000Z\"}]"
+        },
+        {
+          "name": "currentUserIdToken",
+          "value": "19095547"
+        },
+        {
+          "name": "KAGGLE_RECENT_BOOKMARKS",
+          "value": "[]"
+        },
+        {
+          "name": "KAGGLE_NAV_USER_MENUS_OPEN",
+          "value": "{\"viewed\":true,\"edited\":true,\"bookmarks\":true}"
+        },
+        {
+          "name": "_grecaptcha",
+          "value": "09ACzWgXoIYrPaMsQixnRrNpGnnir87sITVoZ_Uc3XkE2sKX7KeUeqg1v0cXuvRVH-cSTv1QhYKZB78WJEtFaN4AFzN7iZ4BEkgr4VDQ"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::a",
+          "value": "MXhwMzB0cmdyaHg0cA=="
+        },
+        {
+          "name": "rc::f",
+          "value": "0aACzWgXolxOQXCHVFaSzYDipQz1dzBSIhJfIFcirW5jd1Ity2J5oAbYQBdPiCoFpQ9nHS_0sD3qeB9_GH_o6Yl4V8w6nE"
+        }
+      ]
+    }
+  ]
+}

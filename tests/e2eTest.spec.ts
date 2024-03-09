@@ -1,17 +1,17 @@
 import { test } from "../fixture/fixture";
 import {LoginPage} from "../page-object/pages/LoginPage"
 
-test("Login to site", async ({ loginPage, page }) => {
-    const login = new LoginPage(page);
-    await login.login();
+test.only("Login to site", async ({ loginPage, page }) => {
+    // const login = new LoginPage(page);
+    // await login.login();
     await page.waitForLoadState();
-    await login.Navigation.newNotebook();
-    await login.Navigation.newModel();
-    await login.Navigation.newOrganization();
-    await login.Navigation.newCompetition();
-    await login.Navigation.newDataset();
-    await login.Navigation.openUserRankings();
-    await login.Navigation.goHome();
-    await login.Navigation.openPrivacy();
+    await loginPage.Navigation.newNotebook();
+    await loginPage.Navigation.newModel();
+    await loginPage.Navigation.newOrganization();
+    await loginPage.Navigation.newCompetition();
+    await loginPage.Navigation.newDataset();
+    await loginPage.Navigation.openUserRankings();
+    await loginPage.Navigation.goHome();
+    await loginPage.Navigation.openPrivacy();
     await page.pause();
 });

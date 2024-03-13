@@ -38,7 +38,6 @@ export default defineConfig({
         }
     
     },
-    
     },
     // {
     //   name: 'firefox',

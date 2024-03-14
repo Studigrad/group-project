@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-
     "start": "nodemon index.js",
     "tests": "playwright test --config=search.config.ts --workers 1 --headed --debug ",
     "tests:ui": "playwright test --ui",
@@ -16,7 +15,8 @@
     "tests:study:dot": "playwright test --config=study.config.ts --reporter=dot",
     "tests:study:list": "playwright test --config=study.config.ts --reporter=list",
     "tests:study:line": "playwright test --config=study.config.ts --reporter=line",
-    "smoke": "playwright test --config=datasets.config.ts --debug"
+    "smoke": "playwright test --config=datasets.config.ts --debug",
+    "all:tests": "playwright test --config=study.config.ts --config=datasets.config.ts"
 
   },
   "keywords": [],

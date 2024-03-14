@@ -6,7 +6,6 @@ import { DatasetsPage } from "../page-object/pages/DatasetsPage";
 import { deleteFile } from "../helpers/helpers";
 import fs from 'fs';
 
-
 test('Notebook opening', async ({ page }) => {
   const loginPage = new LoginPage(page);
   await loginPage.login();

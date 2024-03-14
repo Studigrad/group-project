@@ -20,9 +20,9 @@ export default defineConfig({
   workers: 1,
   reporter: 'html',
   use: {
-    // baseURL: 'https://staging.timelycare.com/',
+    baseURL: 'https://www.kaggle.com/',
     trace: 'on-first-retry',
-    screenshot:"only-on-failure"
+    screenshot:"only-on-failure",
   },
   projects: [
     {

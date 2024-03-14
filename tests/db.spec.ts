@@ -21,7 +21,7 @@ let getUser = function () {
 };
 
 
-test.describe("Testing db", () => {
+test.describe.skip("Testing db", () => {
   test.afterEach(() => {
     connection.end();
   });

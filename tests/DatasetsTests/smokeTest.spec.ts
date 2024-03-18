@@ -7,7 +7,6 @@ test('Open Main Page', async ({datasetsPage}) => {
 test('Open Datasets Page', async ({datasetsPage}) => {
     await datasetsPage.openDatasetsPage();
 });
-
 test('Open nav tab', async ({page,context}) => {
     let navi = new Navigation(page)
     await page.goto("https://www.kaggle.com/datasets");
@@ -17,6 +16,6 @@ test('Open nav tab', async ({page,context}) => {
 
     const newPage = await pagePromise;
     await newPage.waitForLoadState();
-    console.log(await newPage.title());
+    //console.log(await newPage.title());
 })
 

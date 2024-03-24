@@ -13,7 +13,7 @@ export class LoginPage extends BasePage {
 
   constructor(page: Page) {
     super(page);
-    this.signInBtn = page.locator("(//button[@class='sc-eXzmLu jSfUoM'])[1]");
+    this.signInBtn = page.locator("(//span[contains(text(), 'Sign In')]");
     this.signInByEmailBtn = page.locator("(//span[@class='sc-bBkKde epgXIi'])[2]");
     this.signInBtn = page.locator("//span[contains(text(), 'Sign In')]/parent::button[@class='sc-eXzmLu fyDCMu']");
     this.signInByEmailBtn = page.locator("(//div/button[@role='button']/i)[1]");

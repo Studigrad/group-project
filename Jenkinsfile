@@ -1,6 +1,6 @@
 pipeline {
   agent { 
-    docker { 
+    dockerContainer { 
       image 'mcr.microsoft.com/playwright:v1.42.1-focal'
     } 
   }

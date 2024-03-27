@@ -30,7 +30,7 @@ test.describe("Kaggle Search Tests", () => {
     // Check results
     await expect(kagglePage.searchResultItem).toHaveCount(1);
   });
-  test.only("should display 'No results found' page when no results found", async ({ page }) => {
+  test("should display 'No results found' page when no results found", async ({ page }) => {
     const kagglePage = new SearchPage(page);
 
     // Search (not existing value)

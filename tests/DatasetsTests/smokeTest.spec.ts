@@ -8,7 +8,7 @@ test('Open Datasets Page', async ({datasetsPage}) => {
     await datasetsPage.openDatasetsPage();
 });
 
-test.only('Open nav tab', async ({page,context}) => {
+test('Open nav tab', async ({page,context}) => {
     let navi = new Navigation(page)
     await page.goto("https://www.kaggle.com/datasets");
     const pagePromise = context.waitForEvent('page');
